@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1A3A52"/>
+  <circle cx="100" cy="100" r="60" fill="#2E8B9E" opacity="0.8"/>
+  <rect x="80" y="140" width="240" height="100" fill="#2E8B9E" opacity="0.8"/>
+  <rect x="100" y="160" width="200" height="60" fill="#E8D4C4" opacity="0.8"/>
+  <text x="200" y="270" font-size="24" font-weight="bold" fill="#E8D4C4" text-anchor="middle">SERENITY S50</text>
+</svg>

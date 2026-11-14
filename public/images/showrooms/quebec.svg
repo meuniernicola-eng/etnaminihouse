@@ -1,0 +1,10 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#E8D4C4"/>
+  <rect y="180" width="400" height="120" fill="#FFFFFF" opacity="0.7"/>
+  <polygon points="200,40 280,120 120,120" fill="#1A3A52"/>
+  <rect x="60" y="130" width="280" height="100" fill="#2E8B9E" opacity="0.85"/>
+  <rect x="90" y="160" width="60" height="60" fill="#E8D4C4" opacity="0.8"/>
+  <rect x="170" y="150" width="60" height="70" fill="#E8D4C4" opacity="0.8"/>
+  <rect x="250" y="160" width="60" height="60" fill="#E8D4C4" opacity="0.8"/>
+  <text x="200" y="270" font-size="20" font-weight="bold" fill="#1A3A52" text-anchor="middle">QUÉBEC</text>
+</svg>

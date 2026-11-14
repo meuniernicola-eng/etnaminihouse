@@ -21,11 +21,23 @@ export default function Home() {
         <div className="container">
           <h2 className="text-4xl font-bold text-center mb-12">Our Models</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {['ELEVATE P40', 'PANORAMA A40', 'VIBE X60', 'SERENITY S50', 'FLOW F45', 'HORIZON H70'].map((model) => (
-              <div key={model} className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition">
-                <h3 className="text-2xl font-bold mb-4 text-primary">{model}</h3>
-                <p className="text-gray-600 mb-6">Premium modular capsule home designed for quality and sustainability.</p>
-                <button className="text-accent font-bold hover:text-primary">Learn More →</button>
+            {[
+              { name: 'ELEVATE P40', image: '/images/models/p40.svg' },
+              { name: 'PANORAMA A40', image: '/images/models/a40.svg' },
+              { name: 'VIBE X60', image: '/images/models/x60.svg' },
+              { name: 'SERENITY S50', image: '/images/models/s50.svg' },
+              { name: 'FLOW F45', image: '/images/models/f45.svg' },
+              { name: 'HORIZON H70', image: '/images/models/h70.svg' },
+            ].map((model) => (
+              <div key={model.name} className="bg-white rounded-lg shadow-lg hover:shadow-xl transition overflow-hidden">
+                <div className="h-48 bg-gray-100 overflow-hidden">
+                  <img src={model.image} alt={model.name} className="w-full h-full object-cover" />
+                </div>
+                <div className="p-8">
+                  <h3 className="text-2xl font-bold mb-4 text-primary">{model.name}</h3>
+                  <p className="text-gray-600 mb-6">Premium modular capsule home designed for quality and sustainability.</p>
+                  <button className="text-accent font-bold hover:text-primary">Learn More →</button>
+                </div>
               </div>
             ))}
           </div>
@@ -58,21 +70,31 @@ export default function Home() {
         <div className="container">
           <h2 className="text-4xl font-bold text-center mb-12">Visit Us</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow">
-              <h3 className="text-2xl font-bold mb-4 text-primary">Floride</h3>
-              <p className="mb-2"><strong>Address:</strong> 4841 SW Zarrella St, Palm City, FL 34990</p>
-              <p className="mb-2"><strong>Model:</strong> ELEVATE P40</p>
-              <p className="mb-2"><strong>Contact:</strong> Nic Meunier</p>
-              <p className="mb-4"><strong>Hours:</strong> By appointment: 9 AM - 8 PM</p>
-              <a href="tel:+14384991150" className="text-accent font-bold">+1 438-499-1150</a>
+            <div className="bg-white rounded-lg shadow overflow-hidden">
+              <div className="h-40 bg-gray-100 overflow-hidden">
+                <img src="/images/showrooms/floride.svg" alt="Floride Showroom" className="w-full h-full object-cover" />
+              </div>
+              <div className="p-8">
+                <h3 className="text-2xl font-bold mb-4 text-primary">Floride</h3>
+                <p className="mb-2"><strong>Address:</strong> 4841 SW Zarrella St, Palm City, FL 34990</p>
+                <p className="mb-2"><strong>Model:</strong> ELEVATE P40</p>
+                <p className="mb-2"><strong>Contact:</strong> Nic Meunier</p>
+                <p className="mb-4"><strong>Hours:</strong> By appointment: 9 AM - 8 PM</p>
+                <a href="tel:+14384991150" className="text-accent font-bold">+1 438-499-1150</a>
+              </div>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow">
-              <h3 className="text-2xl font-bold mb-4 text-primary">Québec</h3>
-              <p className="mb-2"><strong>Address:</strong> 58 rue Rogel-Lamoureux, Saint-Cyprien-de-Napierville, QC J0J 1L0</p>
-              <p className="mb-2"><strong>Model:</strong> PANORAMA A40</p>
-              <p className="mb-2"><strong>Monday:</strong> Alain Oullette (8 AM - 6 PM)</p>
-              <p className="mb-4"><strong>Thursday:</strong> Mickeal Bibeau (3 PM - 8 PM)</p>
-              <a href="tel:+14384991150" className="text-accent font-bold">+1 438-499-1150</a>
+            <div className="bg-white rounded-lg shadow overflow-hidden">
+              <div className="h-40 bg-gray-100 overflow-hidden">
+                <img src="/images/showrooms/quebec.svg" alt="Québec Showroom" className="w-full h-full object-cover" />
+              </div>
+              <div className="p-8">
+                <h3 className="text-2xl font-bold mb-4 text-primary">Québec</h3>
+                <p className="mb-2"><strong>Address:</strong> 58 rue Rogel-Lamoureux, Saint-Cyprien-de-Napierville, QC J0J 1L0</p>
+                <p className="mb-2"><strong>Model:</strong> PANORAMA A40</p>
+                <p className="mb-2"><strong>Monday:</strong> Alain Oullette (8 AM - 6 PM)</p>
+                <p className="mb-4"><strong>Thursday:</strong> Mickeal Bibeau (3 PM - 8 PM)</p>
+                <a href="tel:+14384991150" className="text-accent font-bold">+1 438-499-1150</a>
+              </div>
             </div>
           </div>
         </div>
