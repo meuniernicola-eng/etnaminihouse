@@ -1,6 +1,1 @@
-<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="300" fill="#1A3A52"/>
-  <rect x="50" y="50" width="300" height="200" fill="#2E8B9E" rx="10"/>
-  <circle cx="200" cy="150" r="40" fill="#E8D4C4" opacity="0.8"/>
-  <text x="200" y="260" font-size="24" font-weight="bold" fill="#E8D4C4" text-anchor="middle">ELEVATE P40</text>
-</svg>
+﻿<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#1A3A52"/><rect x="50" y="50" width="300" height="200" fill="#2E8B9E" rx="10"/><circle cx="200" cy="150" r="40" fill="#E8D4C4" opacity="0.8"/><text x="200" y="260" font-size="24" font-weight="bold" fill="#E8D4C4" text-anchor="middle">ELEVATE P40</text></svg>

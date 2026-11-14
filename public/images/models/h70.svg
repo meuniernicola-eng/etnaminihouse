@@ -1,8 +1,1 @@
-<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="300" fill="#1A3A52"/>
-  <polygon points="50,200 200,30 350,200 350,250 50,250" fill="#2E8B9E" opacity="0.9"/>
-  <rect x="100" y="100" width="60" height="100" fill="#E8D4C4" opacity="0.8"/>
-  <rect x="190" y="80" width="60" height="120" fill="#E8D4C4" opacity="0.8"/>
-  <rect x="280" y="100" width="60" height="100" fill="#E8D4C4" opacity="0.8"/>
-  <text x="200" y="270" font-size="24" font-weight="bold" fill="#E8D4C4" text-anchor="middle">HORIZON H70</text>
-</svg>
+﻿<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#1A3A52"/><polygon points="50,200 200,30 350,200 350,250 50,250" fill="#2E8B9E" opacity="0.9"/><rect x="100" y="100" width="60" height="100" fill="#E8D4C4" opacity="0.8"/><rect x="190" y="80" width="60" height="120" fill="#E8D4C4" opacity="0.8"/><rect x="280" y="100" width="60" height="100" fill="#E8D4C4" opacity="0.8"/><text x="200" y="270" font-size="24" font-weight="bold" fill="#E8D4C4" text-anchor="middle">HORIZON H70</text></svg>

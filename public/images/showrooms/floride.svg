@@ -1,10 +1,1 @@
-<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="300" fill="#E8D4C4"/>
-  <rect y="200" width="400" height="100" fill="#0F8B52" opacity="0.6"/>
-  <circle cx="100" cy="80" r="40" fill="#FFD700" opacity="0.8"/>
-  <rect x="50" y="120" width="300" height="100" fill="#1A3A52" rx="8"/>
-  <rect x="80" y="150" width="70" height="60" fill="#2E8B9E" opacity="0.8"/>
-  <rect x="175" y="150" width="70" height="60" fill="#2E8B9E" opacity="0.8"/>
-  <rect x="270" y="150" width="70" height="60" fill="#2E8B9E" opacity="0.8"/>
-  <text x="200" y="270" font-size="20" font-weight="bold" fill="#1A3A52" text-anchor="middle">FLORIDE</text>
-</svg>
+﻿<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="300" fill="#E8D4C4"/><rect y="200" width="400" height="100" fill="#0F8B52" opacity="0.6"/><circle cx="100" cy="80" r="40" fill="#FFD700" opacity="0.8"/><rect x="50" y="120" width="300" height="100" fill="#1A3A52" rx="8"/><rect x="80" y="150" width="70" height="60" fill="#2E8B9E" opacity="0.8"/><rect x="175" y="150" width="70" height="60" fill="#2E8B9E" opacity="0.8"/><rect x="270" y="150" width="70" height="60" fill="#2E8B9E" opacity="0.8"/><text x="200" y="270" font-size="20" font-weight="bold" fill="#1A3A52" text-anchor="middle">FLORIDE</text></svg>
